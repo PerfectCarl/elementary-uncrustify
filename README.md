@@ -1,6 +1,6 @@
 # elementary-uncrustify
 
-[Config file](//contractor/uncrustify-elementary-vala.cfg)
+[Config file](/contractor/uncrustify-elementary-vala.cfg)
 
 #Before [bad.vala](bad.vala)
 ![](https://raw.githubusercontent.com/PerfectCarl/elementary-uncrustify/master/doc/bad.png)
