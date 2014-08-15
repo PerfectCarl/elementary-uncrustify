@@ -12,7 +12,6 @@ sudo make checkinstall
 ```
 
 #Before [bad.vala](bad.vala)
-![](https://raw.githubusercontent.com/PerfectCarl/elementary-uncrustify/master/doc/bad.png)
 
 #After [good.vala](good.vala)
 ![](https://raw.githubusercontent.com/PerfectCarl/elementary-uncrustify/master/doc/good.png)
