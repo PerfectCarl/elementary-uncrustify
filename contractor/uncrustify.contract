@@ -1,0 +1,6 @@
+[Contractor Entry]
+Name=elementarize
+Icon=document-page-setup
+Description=Uncrustify
+MimeType=text/x-vala
+Exec=uncrustify -c /home/cran/.local/share/contractor/uncrustify-vala.cfg %F --replace
