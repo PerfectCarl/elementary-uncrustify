@@ -1,8 +1,12 @@
-elementary-uncrustify
-=====================
+# elementary-uncrustify
 
-What does [force means?](http://stackoverflow.com/questions/8718654/what-does-force-do-in-uncrustify)
+[Config file](//contractor/uncrustify-elementary-vala.cfg)
 
-[bad.vala](bad.vala)
+#Before [bad.vala](bad.vala)
+![](https://raw.githubusercontent.com/PerfectCarl/elementary-uncrustify/master/doc/bad.png)
 
-[good.vala](good.vala)
+#After [good.vala](good.vala)
+![](https://raw.githubusercontent.com/PerfectCarl/elementary-uncrustify/master/doc/good.png)
+
+# FAQ
+  - What does [force means?](http://stackoverflow.com/questions/8718654/what-does-force-do-in-uncrustify)
