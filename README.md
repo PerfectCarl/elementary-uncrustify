@@ -11,9 +11,9 @@ cd
 sudo make checkinstall
 ```
 
-#Before [bad.vala](bad.vala)
+#Before: [bad.vala](bad.vala)
 
-#After [good.vala](good.vala)
+#After: [good.vala](good.vala)
 ```java
 
 namespace Opera {
