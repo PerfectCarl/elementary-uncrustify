@@ -1,14 +1,17 @@
-# Format your [vala](www.vala-project.org) code according to [elementary guidelines](http://elementaryos.org/docs/code/code-style)
+# elementary code formatting rules
+
+Format your [vala](www.vala-project.org) code according to [elementary guidelines](http://elementaryos.org/docs/code/code-style)
 
 Here is the [config file](/contractor/uncrustify-elementary-vala.cfg) to use with [uncrustify](https://github.com/bengardner/uncrustify) to **automatically format your code**.
 
 ## Install uncrustify
+
 Run the following
 ```
-git clone 
-cd 
+git clone https://github.com/bengardner/uncrustify.git
+cd uncrustify
 ./configure 
-sudo make checkinstall
+sudo make install
 ```
 
 ## Execute uncrustify 
