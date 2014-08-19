@@ -53,14 +53,6 @@ namespace PantheonTerminal {
 
         public string name { get ; set ; default = "Carl" ; }
 
-        public Granite.Widgets.DynamicNotebook notebook;
-
-        public GLib.List <TerminalWidget> terminals = new GLib.List <TerminalWidget> ();
-
-        private HashTable<string, TerminalWidget> restorable_terminals;
-
-        private string[] saved_tabs;
-
         const string ui_string = """
             <ui>
             <popup name="MenuItemTool">
@@ -72,17 +64,10 @@ namespace PantheonTerminal {
             </ui>
         """;
 
-        public PantheonTerminalWindow (PantheonTerminalApp app, bool should_recreate_tabs=true) {
-            init (app, should_recreate_tabs);
-        }
-
         public PantheonTerminalWindow.with_working_directory (PantheonTerminalApp app, string location,
                                                               bool should_recreate_tabs = true) {
             init (app, should_recreate_tabs);
             new_tab (location);
-        }
-
-        public ~PantheonTerminalWindow () {
         }
 
         public void add_tab_with_working_directory (string location) {
@@ -150,10 +135,6 @@ namespace PantheonTerminal {
                 return false;
             });
             
-            foreach (string loc in tabs) {
-                new_tab (loc);
-            }
-
             t.child_exited.connect (() => {
                 if (!t.killed) {
                     t.tab.close ();
