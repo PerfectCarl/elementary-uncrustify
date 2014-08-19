@@ -27,6 +27,8 @@ uncrustify -c path/to/uncrustify-elementary-vala.cfg -f bad.vala -o good.vala
 ```
 
 # Output sample
+Inspired from [pantheon terminal code](http://bazaar.launchpad.net/~elementary-apps/pantheon-terminal/trunk/view/head:/src/PantheonTerminalWindow.vala)
+
 ```java
 namespace PantheonTerminal {
 
