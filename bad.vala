@@ -29,6 +29,13 @@ public string name { get ;
    public ~Act  (  )     {
           }
 
+	
+
+	public int i_am_lost () 
+{
+}
+
+
 
         public int do_something (PantheonTerminalApp app, string location,
                                                               bool should_recreate_tabs = true) {

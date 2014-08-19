@@ -27,6 +27,10 @@ namespace Opera {
         }
 
 
+
+        public int i_am_lost() {
+        }
+
         public int do_something(PantheonTerminalApp app, string location,
                                 bool should_recreate_tabs = true) {
             do_it (app, should_recreate_tabs) ;
