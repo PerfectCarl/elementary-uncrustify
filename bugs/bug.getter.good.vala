@@ -1,4 +1,13 @@
-int main() {
+public Class Act
+{
+    public string name { get ;
+                         set ; default = "Carl" ; }
 
-    return 0 ;
+    public string firsname
+    {
+        get {
+            string test = "bla" ;
+            return test ;
+        }
+    }
 }
