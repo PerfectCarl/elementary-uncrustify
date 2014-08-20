@@ -1,5 +1,5 @@
 
-namespace Opera {
+namespace Opera{
     public Class Act
     {
 
