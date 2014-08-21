@@ -45,10 +45,10 @@ namespace Opera{
 
             switch( a_value ){
 
-            case ENUM . val1:
+            case ENUM.val1:
 
                 var casting = (int) do_something () ;
-                break ; case ENUM . val2:
+                break ; case ENUM.val2:
 
                 do_some_other_thing () ;
                 break ;
@@ -71,23 +71,23 @@ namespace Opera{
             } else {
                 the_kids_will_be_alright () ;
             }
-            var strings = Gee . ArrayList<String>() ;
-            for(    int i = 0 ; i < strings . size ; i++  ){
+            var strings = Gee.ArrayList<String>() ;
+            for(    int i = 0 ; i < strings.size ; i++  ){
                 message (strings[i]) ;
             }
-            gtkwidget . clicked . connect ((widdget)  => { message ("Clicked") ; }) ;
+            gtkwidget.clicked.connect ((widdget) => { message ("Clicked") ; }) ;
 
-            gtkwidget . enabled . connect ((widdget)  => {
-                                               message ("Clicked") ;
+            gtkwidget.enabled.connect ((widdget) => {
+                                           message ("Clicked") ;
 
-                                           }) ;
+                                       }) ;
             try
             {
-                ui . add_ui_from_string (ui_string, -1) ;
+                ui.add_ui_from_string (ui_string, -1) ;
             }
             catch (Error e)
             {
-                error ("Couldn't load the UI: %s", e . message) ;
+                error ("Couldn't load the UI: %s", e.message) ;
             }
 
             throw (new Error ("big error")) ;
@@ -96,10 +96,10 @@ namespace Opera{
             some_function (&(data *)) ;
             string[] array = { "bla", "blue" } ;
             /* Command is the control command to the terminal */
-            if( bg == Colors . BLACK )
-                return "%c[%d;%dm" . printf (0x1B, (int) attr, (int) fg + 30) ;
+            if( bg == Colors.BLACK )
+                return "%c[%d;%dm".printf (0x1B, (int) attr, (int) fg + 30) ;
             else
-                return "%c[%d;%d;%dm" .   printf (0x1B, (int) attr, (int) fg + 30, (int) bg + 40) ;
+                return "%c[%d;%d;%dm".printf (0x1B, (int) attr, (int) fg + 30, (int) bg + 40) ;
         }
 
     }
