@@ -1,8 +1,8 @@
 int main() {
 
     gtkwidget.enabled.connect ((widdget) => {
-                                   message ("Clicked") ;
+        message ("Clicked") ;
 
-                               }) ;
+    }) ;
     return 0 ;
 }

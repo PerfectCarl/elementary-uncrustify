@@ -78,9 +78,9 @@ namespace Opera{
             gtkwidget.clicked.connect ((widdget) => { message ("Clicked") ; }) ;
 
             gtkwidget.enabled.connect ((widdget) => {
-                                           message ("Clicked") ;
+                message ("Clicked") ;
 
-                                       }) ;
+            }) ;
             try
             {
                 ui.add_ui_from_string (ui_string, -1) ;
