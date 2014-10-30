@@ -1,6 +1,6 @@
 # elementary code formatting rules
 
-Format your [vala](www.vala-project.org) code according to [elementary guidelines](http://elementaryos.org/docs/code/code-style)
+Format your [vala](www.vala-project.org) code according to [elementary guidelines](http://elementaryos.org/docs/code/code-style) and [vala recommandations](https://wiki.gnome.org/Projects/Vala/Hacking#Coding_Style). 
 
 Here is the [config file](/contractor/uncrustify-elementary-vala.cfg) to use with [uncrustify](https://github.com/bengardner/uncrustify) to **automatically format your code**.
 
